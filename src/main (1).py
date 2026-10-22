@@ -31,7 +31,7 @@ from sklearn.metrics import (
 from imblearn.over_sampling import SMOTE
 
 
-DEFAULT_DATASET = "fraud_detection_kaggle_style_1000_rows.csv"
+DEFAULT_DATASET = "data/fraud_detection_kaggle_style_1000_rows.csv"
 TARGET = "FraudIndicator"
 FEATURES = [
     "Category",
